@@ -1,0 +1,94 @@
+.client-list {
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+.client-list a {
+  height: 42px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #82c91e;
+  border: 2px solid #82c91e;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.client-list a:hover {
+  color: #fff;
+  background: #82c91e;
+}
+
+.client-list a svg {
+  margin-right: 15px;
+}
+
+.client-list article {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.client-list article div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.client-list article div .resume {
+  flex-direction: column;
+}
+
+.client-list article div .trashImage {
+  align-items: center;
+  cursor: pointer;
+}
+
+.client-list article div .trashImage svg {
+  width: 35px;
+  height: 35px;
+}
+
+.client-list article div .trashImage svg:hover {
+  color: #ff0000;
+}
+
+.client-list article p {
+  font-size: 16px;
+  color: #999;
+  margin-top: 5px;
+  line-height: 24px;
+}
+
+.client-list article p b {
+  color: #000000;
+}
+
+.client-list article a {
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid rgb(68, 160, 196);
+  background: none;
+  margin-top: 10px;
+  color: rgb(68, 160, 196);
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2;
+}
+
+.client-list article a:hover {
+  background: rgb(68, 160, 196);
+  color: #fff;
+  cursor: pointer;
+}
